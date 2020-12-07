@@ -1,0 +1,26 @@
+
+button{
+    border:2px solid $primary-text-colour;
+    background-color: transparent;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding: 14px 20px;
+    outline:none;
+    width: 200px;
+    color:$primary-text-colour ;
+    border-radius: 5px;
+    transition: 0.75s;
+
+    &:hover{
+        width: 300px;
+        background-color: $primary-text-colour;
+        color: black;
+        box-shadow: 0 0px 15px $primary-text-colour;
+    }
+}
+
+.loginbtn{
+    margin-top: 5rem;
+    margin-bottom: 25rem;
+}
