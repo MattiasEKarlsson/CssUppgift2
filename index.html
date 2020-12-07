@@ -30,18 +30,53 @@
         <form action="result.aspx" method="GET">
             <div class="row">
                 <div class="col-12"><h2>Sign Up</h2></div>
-                <div class="col-12 col-lg-6"><input type="text" name="Firstname" placeholder="Firstname"></div>
-                <div class="col-12 col-lg-6"><input type="text" name="Lastname" placeholder="Lastname"></div>
-                <div class="col-12"><input type="email" name="Emailaddress" placeholder="Emailaddress"></div>
-                <div class="col-12 col-lg-6"><input type="text" name="Deliveryaddress" placeholder="DeliveryAddress"></div>
-                <div class="col-12 col-lg-6"><input type="text" name="Billingaddress" placeholder="BillingAddress"></div>
-                <div class="col-12 col-lg-6"><input type="password" name="Password" placeholder="Password"></div>
-                <div class="col-12 col-lg-6"><input type="password" name="ConfimPassword" placeholder="Confirm Password"></div>
-                <div class="col-12"><label for="exampleCheck">Accept Terms, Conditions and GDPR</label></div>
-                <div class="col-12"><input type="checkbox" name="Conditions"></div>
-                <div class="col-12"><label for="exampleCheck">I want Newsletter!</label></div>
-                <div class="col-12"><input type="checkbox" name="Newsletter"></div>
-                <div class="col-12"><button type="submit">Confirm</button></div>
+                <div class="col-12 col-lg-6">
+                    <input type="text" name="Firstname" placeholder="First name" required>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <input type="text" name="Lastname" placeholder="Last name" required>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <input type="text" name="Deliveryaddress" placeholder="Delivery Address" required>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <input type="text" name="Billingaddress" placeholder="Billing Address">
+                </div>
+
+                <div class="col-12">
+                    <input type="email" name="Emailaddress" placeholder="E-mail" required>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <input type="password" name="Password" placeholder="Password" required>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <input type="password" name="RepeatPassword" placeholder="Repeat Password" required>
+                </div>
+
+                <div class="col-12">
+                    <label for="exampleCheck">Accept Terms, Conditions and GDPR</label>
+                </div>
+
+                <div class="col-12">
+                    <input type="checkbox" name="Conditions" required>
+                </div>
+
+                <div class="col-12">
+                    <label for="exampleCheck">Newsletters ?</label>
+                </div>
+
+                <div class="col-12">
+                    <input type="checkbox" name="Newsletter">
+                </div>
+
+                <div class="col-12">
+                    <button type="submit">Confirm</button>
+                </div>
             </div>
         </form>
         <div class="col-12"><a class="col-12" href="login.html"><button>Login</button></a></div>
